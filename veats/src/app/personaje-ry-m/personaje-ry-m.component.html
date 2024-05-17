@@ -1,0 +1,23 @@
+<div class="content-fluid">
+    <div class="row justify-content-center mt-5">
+        <div class="col-3 py-5">
+            <div class="card" style="margin-top: 2cm;">
+                <img src="{{bdataPersonajeONE.image}}" class="card-img-top" alt="..." width="200px">
+                <div class="card-body">
+                  <h5 class="card-title">{{bdataPersonajeONE.name}}</h5>
+                  <p class="card-text">{{bdataPersonajeONE.id}}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">{{bdataPersonajeONE.gender}}</li>
+                  <li class="list-group-item">{{bdataPersonajeONE.location.name}}</li>
+                  <li class="list-group-item">{{bdataPersonajeONE.species}}</li>
+                  <li class="list-group-item">{{bdataPersonajeONE.status}}</li>
+                  <button class="btn btn-primary" routerLink="/carrito" routerLinkActive="active">Añadir descuento</button>
+                 
+                </ul>
+              </div>
+        </div>
+        
+    </div>
+</div>
+<app-footer></app-footer>

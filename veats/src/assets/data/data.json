@@ -1,0 +1,37 @@
+{
+
+    "platos": [
+        {
+            "imagen": "assets/imagenes/noodles_pollocurry.webp",
+            "titulo": "Noodles de pollo",
+            "descripcion": "Noodles de trigo, pollo, col lisa, zanahoria, cebolla, brotes de soja, salsa de soja, ajo, pasta de curry.",
+            "precio": "6,95€",
+            "boton": "Añadir al carrito"
+        },
+      
+        {
+            "imagen": "assets/imagenes/meloso_ternera.webp",
+            "titulo": "Meloso de ternera",
+            "descripcion": "Meloso de ternera, puré de patata (patata, leche, pimienta, sal), salsa thai (caldo de pollo, soja, cebolla).",
+            "precio": "8,95€",
+            "boton": "Añadir al carrito"
+        },
+
+        {
+            "imagen": "assets/imagenes/brownie.webp",
+            "titulo": "Brownie de chocolate",
+            "descripcion": "Azúcar,huevo,mantequilla, chocolate,harina de trigo, frambuesas.",
+            "precio": "3,30€",
+            "boton": "Añadir al carrito"
+        },
+
+        {
+            "imagen": "assets/imagenes/tarta_queso.webp",
+            "titulo": "Tarta de queso",
+            "descripcion": "Queso crema, azúcar, nata, almidón de maíz, huevo, harina de trigo, harina de almendra, mantequilla.",
+            "precio": "3,30€",
+            "boton": "Añadir al carrito"
+        }
+    
+    ]
+}

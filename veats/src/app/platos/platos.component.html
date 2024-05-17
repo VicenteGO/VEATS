@@ -1,0 +1,42 @@
+<div class="container-fluid fruite py-5">
+    <div class="container py-5">
+      <div class="tab-class text-center">
+        <div class="row g-4">
+          <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <h1 class="fw-normal display-2 text-primary mb-4">Platos Estrella</h1>
+            <h5>Nuestros mejores platos a tu alcance.</h5>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+                  <section class="d-flex justify-content-center align-items-center px-5 row" >
+                    <div class="col-md-6 col-lg-4 col-xl-3" *ngFor="let pl of platos">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img [src]="pl.imagen" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Principales</div>
+                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                          <h4>{{pl.titulo}}</h4>
+                          <p>{{pl.descripcion}}</p>
+                          <div class="d-flex justify-content-between flex-lg-wrap">
+                            <p class="text-dark fs-5 fw-bold mb-0">{{pl.precio}}</p>
+                            <a href="#" routerLink="/carrito" routerLinkActive="active" class="btn border border-secondary rounded-pill px-3 text-primary">
+                              <i class="fa fa-shopping-bag me-2 text-primary"></i>{{pl.boton}}
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
